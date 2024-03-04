@@ -1,0 +1,35 @@
+.navbar{
+    width: 100%;
+    background-color: #36454F;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+.navItem ul{
+    display: flex;
+    gap: 2.5rem;
+}
+.navItem ul li{
+    list-style: none;
+}
+.navItem ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navItem ul li a:hover{
+    color: blue;
+    transition: all .3s ease-in-out;
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+}
+.navLogo{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,46 @@
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+.footer{
+    background-color: #e5e8ee;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 3rem 0;
+}
+.footer .para p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color:rgb(107, 114, 128);
+    margin-top: -10px;
+}
+span,span a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color:rgb(58, 61, 66);
+}
+.contect span a{
+    font-size: 22px;
+    cursor: pointer;
+}
+.contect span a:hover,span a:hover{
+    color:rgb(35, 37, 40);
+}
+a{
+    text-decoration: none;
+}
+.about{
+    display: flex;
+    gap: 1.5rem;
+}
+.contect{
+    display: flex;
+    gap: 2rem;
+}
