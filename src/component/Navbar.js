@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import Button from "./Button";
 import logo from "./../assest/logo/geekster-logo.png";
+import { NavLink } from "react-router-dom";
 
 const Navbar = (props) => {
   return (
@@ -13,19 +14,19 @@ const Navbar = (props) => {
         <div className="navItem">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="#">Quote</a>
+              <NavLink to="/quote">Quote</NavLink>
             </li>
             <li>
-              <a href="#">Resturants</a>
+              <NavLink to="/resturant">Resturants</NavLink>
             </li>
             <li>
-              <a href="#">Foods</a>
+              <NavLink to="/foods">Foods</NavLink>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

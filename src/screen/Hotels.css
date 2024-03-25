@@ -1,0 +1,11 @@
+.cardss{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px 40px;
+}
+.innerCardss{
+    padding: 20px;
+    background-image: linear-gradient(rgb(211, 73, 73),rgb(79, 191, 79));
+}
